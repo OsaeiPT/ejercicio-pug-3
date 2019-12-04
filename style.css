@@ -1,0 +1,142 @@
+.img-microsoft{
+  height: 20px;
+  object-fit: contain;
+  width: 137px;
+  margin-top: -20px;
+}
+
+.list_ul-{
+  font-size: 26px;
+  font-weight: 100;
+  color: rgba(0,0,0,.5);
+  margin-left: -15px;
+}
+
+
+
+.list_ul--:hover{
+  color: black !important;
+}
+
+.list_ul--{
+  font-weight: bold;
+  color: black;
+  margin-left: -15px;
+  font-size: 16px !important;
+}
+
+.list_ul_link{
+  width: 107px;
+  margin-left: -10px;
+}
+
+.list_ul_link-{
+  margin-left: -10px;
+}
+
+.links_top{
+  margin-top: 8px;
+}
+
+.list-icon{
+  margin-right: -39px;
+  font-size: 20px;
+  margin-top: -8px;
+}
+
+
+.list_icon{
+  margin-right: -59px;
+  font-size: 20px;
+  margin-top: -8px;
+}
+
+.navbar a{
+  color: #262626 !important;
+}
+
+.navbar li{
+  list-style: none;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+/* Ajustes */
+
+.brs{
+  display: none;
+}
+
+.src{
+  display: none;
+}
+
+.cicle{
+  display: none;
+}
+
+.list_ul_link_{
+  display: none;
+}
+
+@media screen and (max-width:320px){
+
+  .brs{
+    font-size: 20px;
+    display: initial;
+    font-weight: 100;
+  }
+
+  .src{
+    font-size: 20px;
+    display: initial;
+    margin-left: 20px;
+    font-weight: 100;
+  }
+
+  .img-microsoft{
+    margin-left: 20px;
+    height: 25px;
+    margin-top: -5px;
+  }
+
+  .cicle{
+    display: initial;
+    font-size: 35px;
+    margin-top: -15px;
+    font-weight: 100;
+    margin-left: 33px;
+    margin-bottom: -8px;
+  }
+
+  .list_ul-{
+    display: none;
+  }
+
+  .list_ul_link{
+    display: none;
+  }
+
+  .list_ul_link-{
+    display: none;
+  }
+
+  .list_ul--{
+    display: none;
+  }
+
+  .list_ul_link_{
+    display: initial;
+  }
+
+  .list-automatic{
+    margin-top: 20px;
+    font-size: 20px !important;
+    margin-left: -18px;
+  }
+
+  
+  
+
+}
+
