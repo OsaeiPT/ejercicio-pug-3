@@ -56,7 +56,7 @@ body
 
         div(class="collapse navbar-collapse links_top" id="forNavbar")
                 ul(class="navbar-nav ml-auto")
-                  li(class="nav-item dropdown")
+                  li(class="nav-item dropdown d-ns")
                     a(class="nav-link dropdown-toggle" href="#" data-toggle="dropdown") todo microsoft
                     
                     div(class="dropdown-menu")
@@ -65,9 +65,9 @@ body
                       a(href="#" class="dropdown-item") Link
                       a(href="#" class="dropdown-item") Link
 
-                  li.nav-link: a.dropdown-item.list-icon(href="#"): i.fas.fa-search
+                  li.nav-link: a.dropdown-item.list-icon.d-ns(href="#"): i.fas.fa-search
 
-                  li.nav-link: a.dropdown-item.list_icon(href="#"): i.fas.fa-user-circle
+                  li.nav-link: a.dropdown-item.list_icon.usser(href="#"): i.fas.fa-user-circle
                     
   .365-img
     img.img-fluid.img-365(src="img/RE3BTFp.jpg", alt="365 Logo")
@@ -78,21 +78,58 @@ body
 
         p.text-title cada dia tíenes una oportunidad nueca con office 365
 
-        butto.btn.btn-warning.btn-war.mt-4 para el hogar
+        button.btn.btn-warning.btn-war.mt-4 para el hogar
 
-        butto.btn.btn-warning.btn-war.mt-3 para el empresas
+        button.btn.btn-warning.btn-war.mt-3.btn-plus para el empresas
 
-    .text-info-365
+    section.text-info-365
       .container
         .text_info_hijo
 
           h2.sub-title-principal qué es office 365
 
-          p.text_info Office 365 es un servicio de suscripción basado en la nube que reúne las mejores herramientas para la forma de trabajar de hoy en día. Al combinar las mejores aplicaciones de su categoría, como Excel y Outlook, con servicios de gran utilidad en la nube, como OneDrive y Microsoft Teams, Office 365 permite a los usuarios crear y compartir desde cualquier lugar y dispositivo.
+          p.text_info_1 Office 365 es un servicio de suscripción basado en la nube que reúne las mejores herramientas para la forma de trabajar de hoy en día. Al combinar las mejores aplicaciones de su categoría, como Excel y Outlook, con servicios de gran utilidad en la nube, como OneDrive y Microsoft Teams, Office 365 permite a los usuarios crear y compartir desde cualquier lugar y dispositivo.
         
       .tex_info-img
 
-      img.img-fluid(src="img/RE49D7o.webp", alt="")
+      img.img-fluid.img_tablet(src="img/RE49D7o.webp", alt="")
+
+    section.text_info
+      .container
+        .text_info-hijo
+
+          h3.title_info más informacion sobre office 365
+
+          .c-info_icon.col-md-3
+            img(src="img/RE3hsE5.png", alt="Icon Representing a Small Bussines")
+
+            p.text_icon hogar
+
+            a.link(href="#") más información ➣
+
+        .text_info-
+          .c-info_icon.col-md-3
+            img(src="img/RE3hxRH.webp", alt="Icon Representing a Small Bussines")
+
+            p.text_icon pequeñas empresas
+
+            a.link(href="#") más información ➣
+
+        .text_info-
+          .c-info_icon.col-md-3
+            img(src="img/RE3hSFA.png", alt="Icon Representing a Small Bussines")
+
+            p.text_icon grandes empresas
+
+            a.link(href="#") más información ➣
+
+        .text_info-.mb-5
+          .c-info_icon.col-md-3
+            img(src="img/RE3hKSi.png", alt="Icon Representing a Small Bussines")
+
+            p.text_icon ámbito educativo
+
+            a.link(href="#") más información ➣
 
 
 
